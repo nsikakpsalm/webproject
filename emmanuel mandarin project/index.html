@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+            
+        }
+        .container{
+            background-color: black;
+            display: grid;
+            height: 600px;
+            width: 600px;
+            grid-template-columns: 0.5fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 0.7fr 0.7fr 0.3fr;
+            gap: 5px;
+            border: solid black;
+            
+        }
+        .red{
+            background-color: red;
+            grid-column: span 2;
+        }
+        .white-1{
+            background-color: white;
+            grid-column: span 2;
+        }
+        .white-2{
+            background-color: white;
+            grid-column: span 2;
+
+        }
+        .white-3{
+            background-color: white;
+            grid-column: span 2;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .white-4{
+            background-color: white;
+            grid-row: span 2;
+        }
+        .orange{
+            background-color: orange;
+            grid-row: span 2;
+        }
+        .violet{
+            background-color: violet;
+            grid-row: span 2;
+        }
+        .blue{
+            background-color: blue;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="container">
+            <div class="red"></div>
+            <div class="white-1 white"></div>
+            <div class="white-2 white"></div>
+            <div class="white-3 white"></div>
+           <div class="yellow"></div>
+           <div class="white-4 white"></div>
+           <div class="orange"></div>
+           <div class="violet"></div>
+           <div class="blue"></div>
+        </div>
+        
+    </div>
+   
+</body>
+</html>
